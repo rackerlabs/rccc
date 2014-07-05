@@ -30,6 +30,10 @@ Set the username and apiKey
 
     username = "{blank}"
     apiKey = "{blank}"
+    
+Clear the history at the end of a challenge
+
+    :H clear
 
 ## Python: SDK = pyrax
 
@@ -53,6 +57,10 @@ Set the username and apiKey
     username = "{blank}"
     apiKey = "{blank}"
 
+Clear the history at the end of a challenge
+
+    TODO
+
 ## Ruby: SDK = fog
 
 In a new Terminal tab
@@ -74,3 +82,7 @@ Set the username and apiKey
 
     username = "{blank}"
     apiKey = "{blank}"
+
+Clear the history at the end of a challenge
+
+    TODO
