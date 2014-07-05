@@ -8,6 +8,10 @@
 
     cd rccc
     vagrant up
+    
+## Stop the RCCC VM at the end of the day
+
+    vagrant halt
 
 ## Java: SDK = jclouds
 
@@ -34,6 +38,10 @@ Set the username and apiKey
 Clear the history at the end of a challenge
 
     :H clear
+    
+Quit the groovy shell at the end of the day
+
+    :q
 
 ## Python: SDK = pyrax
 
