@@ -9,7 +9,7 @@
     cd rccc
     vagrant up
     
-## Stop the RCCC VM at the end of the day
+## Stop the RCCC VM before turning off the laptop
 
     vagrant halt
 
