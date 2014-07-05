@@ -22,7 +22,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   ## Provision config
 
-  config.vm.provision :shell, path: "fog/rccc.sh", privileged: false
-  config.vm.provision :shell, path: "jclouds/rccc.sh", privileged: false
-  config.vm.provision :shell, path: "pyrax/rccc.sh", privileged: false
+  config.vm.provision :shell, path: "fog/bootstrap.sh", privileged: false
+  config.vm.provision :shell, path: "jclouds/bootstrap.sh", privileged: false
+  config.vm.provision :shell, path: "pyrax/bootstrap.sh", privileged: false
 end

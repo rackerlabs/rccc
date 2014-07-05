@@ -23,13 +23,9 @@ unzip apache-maven-$MAVEN_VERSION-bin.zip
 MAVEN_HOME="$HOME/jclouds/apache-maven-$MAVEN_VERSION"
 echo "export MAVEN_HOME=\"$MAVEN_HOME\"" >> $HOME/.bashrc
 
-# Configure PATH
-echo 'export PATH="$PATH:$GROOVY_HOME/bin:$MAVEN_HOME/bin"' >> $HOME/.bashrc
-source $HOME/.bashrc
-
 # Get jclouds
-wget -nv https://raw.githubusercontent.com/jclouds/jclouds-examples/master/rackspace/pom.xml
-mvn -q dependency:copy-dependencies "-DoutputDirectory=./lib"
+wget -nv https://raw.githubusercontent.com/rackerlabs/rccc/master/jclouds/pom.xml
+$MAVEN_HOME/bin/mvn -q dependency:copy-dependencies "-DoutputDirectory=./lib"
 
 # Configure Groovy Shell
 mkdir $HOME/.groovy
@@ -42,3 +38,6 @@ import org.jclouds.openstack.swift.v1.SwiftApi
 import org.jclouds.openstack.swift.v1.domain.*
 import org.jclouds.openstack.swift.v1.features.*
 EOL
+
+# Configure PATH
+echo 'export PATH="$PATH:$GROOVY_HOME/bin:$MAVEN_HOME/bin"' >> $HOME/.bashrc

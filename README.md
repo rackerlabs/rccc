@@ -9,7 +9,7 @@
     cd rccc
     vagrant up
 
-## jclouds
+## Java: SDK = jclouds
 
 In a new Terminal tab
 
@@ -25,6 +25,50 @@ Start the groovy shell
 
     cd jclouds/
     groovysh -cp "lib/*"
+
+Set the username and apiKey
+
+    username = "{blank}"
+    apiKey = "{blank}"
+
+## Python: SDK = pyrax
+
+In a new Terminal tab
+
+    Command+Shift+I
+    Title: Python
+
+Connect to the RCCC VM
+
+    cd rccc/
+    vagrant ssh
+
+Start the python interpreter
+
+    cd pyrax/
+    TODO
+
+Set the username and apiKey
+
+    username = "{blank}"
+    apiKey = "{blank}"
+
+## Ruby: SDK = fog
+
+In a new Terminal tab
+
+    Command+Shift+I
+    Title: Ruby
+
+Connect to the RCCC VM
+
+    cd rccc/
+    vagrant ssh
+
+Start the ruby interpreter
+
+    cd fog/
+    TODO
 
 Set the username and apiKey
 
