@@ -3,4 +3,9 @@
 mkdir pyrax
 cd pyrax
 
-#TODO
+# Get pip
+sudo apt-get update
+sudo apt-get install python-pip
+
+# Get pyrax
+sudo pip install pyrax
