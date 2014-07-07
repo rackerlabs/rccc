@@ -8,7 +8,7 @@
 
     cd rccc
     vagrant up
-    
+
 ## Stop the RCCC VM before turning off the laptop
 
     vagrant halt
@@ -34,11 +34,11 @@ Set the username and apiKey
 
     username = "{blank}"
     apiKey = "{blank}"
-    
+
 Clear the history at the end of a challenge
 
     :H clear
-    
+
 Quit the groovy shell at the end of the day
 
     :q
@@ -84,13 +84,14 @@ Connect to the RCCC VM
 Start the ruby interpreter
 
     cd fog/
-    TODO
+    irb
 
 Set the username and apiKey
 
     username = "{blank}"
     apiKey = "{blank}"
 
-Clear the history at the end of a challenge
+Quit irb and clear the history at the end of a challenge
 
-    TODO
+    exit
+    rm ~/.irb_history
