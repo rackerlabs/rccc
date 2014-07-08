@@ -1,5 +1,3 @@
-**HINT**: You can use tab completion when typing out the code below to get done quickly.
-
 Set up pyrax
 
     import pyrax
@@ -7,7 +5,9 @@ Set up pyrax
 
 Create an authenticated Context
 
-    context = pyrax.create_context(username, api_key)
+    context = pyrax.create_context()
+    context.set_credentials(username, api_key)
+    context.authenticate()
 
 Get the client for Rackspace Cloud Files in the DFW region.
 
