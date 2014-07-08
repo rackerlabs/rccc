@@ -58,16 +58,17 @@ Connect to the RCCC VM
 Start the python interpreter
 
     cd pyrax/
-    TODO
+    python
 
 Set the username and apiKey
 
     username = "{blank}"
-    apiKey = "{blank}"
+    api_key = "{blank}"
 
 Clear the history at the end of a challenge
 
-    TODO
+    import readline
+    readline.clear_history()
 
 ## Ruby: SDK = fog
 
