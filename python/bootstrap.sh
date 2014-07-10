@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir pyrax
-cd pyrax
+mkdir python
+cd python
 
 # Get pip
 sudo apt-get update

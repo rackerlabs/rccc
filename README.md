@@ -13,7 +13,7 @@
 
     vagrant halt
 
-## Java: SDK = jclouds
+## Java SDK = jclouds
 
 In a new Terminal tab
 
@@ -27,7 +27,7 @@ Connect to the RCCC VM
 
 Start the groovy shell
 
-    cd jclouds/
+    cd java/
     groovysh -cp "lib/*"
 
 Set the username and apiKey
@@ -43,7 +43,7 @@ Quit the groovy shell at the end of the day
 
     :q
 
-## Python: SDK = pyrax
+## Python SDK = pyrax
 
 In a new Terminal tab
 
@@ -57,7 +57,7 @@ Connect to the RCCC VM
 
 Start the python interpreter
 
-    cd pyrax/
+    cd python/
     python
 
 Set the username and apiKey
@@ -70,7 +70,7 @@ Clear the history at the end of a challenge
     import readline
     readline.clear_history()
 
-## Ruby: SDK = fog
+## Ruby SDK = fog
 
 In a new Terminal tab
 
@@ -84,7 +84,7 @@ Connect to the RCCC VM
 
 Start the ruby interpreter
 
-    cd fog/
+    cd ruby/
     irb
 
 Set the username and apiKey

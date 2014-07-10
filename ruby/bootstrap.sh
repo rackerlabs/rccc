@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir fog
-cd fog
+mkdir ruby
+cd ruby
 
 # Get a modern Ruby
 sudo add-apt-repository ppa:brightbox/ruby-ng
