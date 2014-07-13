@@ -90,7 +90,7 @@ Start the ruby interpreter
 Set the username and apiKey
 
     username = "{blank}"
-    apiKey = "{blank}"
+    api_key = "{blank}"
 
 Quit irb and clear the history at the end of a challenge
 
