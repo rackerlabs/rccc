@@ -1,10 +1,12 @@
-Require the "fog" SDK.
+**HINT**: You can find these instructions online at rack.to/rccc-ruby
+
+Setup fog
 
 ```ruby
 require 'fog'
 ```
 
-Authenticate to the Storage service.
+Get the client for Rackspace Cloud Files in the DFW region.
 
 ```ruby
 storage = Fog::Storage.new(
@@ -15,33 +17,33 @@ storage = Fog::Storage.new(
 )
 ```
 
-Get the list of all containers.
+Get the directories
 
 ```ruby
 directories = storage.directories.all
 ```
 
-Print them out.
+List the directories (note the directory with the current program name)
 
 ```ruby
 directories.each do |directory|
-  puts directory.name
+  puts directory.key
 end
 ```
 
-Get the container with the current program name.
+Get the directory with the current program name; change {blank} to that name
 
 ```ruby
-directory = storage.directories.get('{currentProgramName}')
+directory = storage.directories.get('{blank}')
 ```
 
-Get the objects within the container.
+Get the objects within the directory
 
 ```ruby
 files = directory.files.all
 ```
 
-Print the objects.
+List the objects
 
 ```ruby
 files.each do |file|
@@ -49,14 +51,16 @@ files.each do |file|
 end
 ```
 
-Get the object with the previous program name.
+Get the object; change {blank} to the previous program name
 
 ```ruby
-file = directory.files.get('{previousProgramName}')
+file = directory.files.get('{blank}')
 ```
 
-Print the contents of the object for the win!
+Print the contents of the object
 
 ```ruby
 puts file.body
 ```
+
+Read the message and follow the instructions for the win!

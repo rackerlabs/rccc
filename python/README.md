@@ -1,3 +1,5 @@
+**HINT**: You can find these instructions online at rack.to/rccc-python
+
 Set up pyrax
 
 ```python
@@ -13,7 +15,7 @@ context.set_credentials(username, api_key)
 context.authenticate()
 ```
 
-Get the client for Rackspace Cloud Files in the DFW region.
+Get the client for Rackspace Cloud Files in the DFW region
 
 ```python
 client = context.get_client("object_store", "DFW")
@@ -25,20 +27,19 @@ List the containers (note the container with the current program name)
 print "\n".join([container.name for container in client.list()])
 ```
 
-Get a reference to the container with the current program name; change {blank}
-to that name.
+Get the container with the current program name; change {blank} to that name
 
 ```python
 cont = client.get("{blank}")
 ```
 
-List the objects within that container.
+List the objects within that container
 
 ```python
 print "\n".join([obj.name for obj in cont.list()])
 ```
 
-Get the object; change {blank} to the previous program name.
+Get the object; change {blank} to the previous program name
 
 ```python
 obj = cont.get_object("{blank}")

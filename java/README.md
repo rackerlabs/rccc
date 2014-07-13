@@ -1,4 +1,5 @@
 **HINT**: You can use tab completion when typing out the code below to get done quickly.
+**HINT**: You can find these instructions online at rack.to/rccc-java
 
 Create a Context for Rackspace Cloud Files (it's OpenStack Swift)
 
@@ -26,7 +27,7 @@ List the containers (note the container with the current program name)
 Joiner.on("\n").join(containers)
 ```
 
-Get the ObjectApi for the DFW region and change {blank} to the name of the container with the current program name
+Get the ObjectApi for the DFW region; change {blank} to that name
 
 ```java
 objectApi = swiftApi.getObjectApiForRegionAndContainer("DFW", "{blank}")
