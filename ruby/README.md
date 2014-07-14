@@ -26,9 +26,7 @@ directories = storage.directories.all
 List the directories (note the directory with the current program name)
 
 ```ruby
-directories.each do |directory|
-  puts directory.key
-end
+directories.map { |directory| directory.key }
 ```
 
 Get the directory with the current program name; change {blank} to that name
@@ -46,9 +44,7 @@ files = directory.files.all
 List the objects
 
 ```ruby
-files.each do |file|
-  puts file.key
-end
+files.map { |file| file.key }
 ```
 
 Get the object; change {blank} to the previous program name
