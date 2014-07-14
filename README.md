@@ -55,10 +55,10 @@ Connect to the RCCC VM
     cd rccc/
     vagrant ssh
 
-Start the python interpreter
+Start the iPython interpreter
 
     cd python/
-    python
+    ipython
 
 Set the username and apiKey
 
@@ -69,6 +69,8 @@ Clear the history at the end of a challenge
 
     import readline
     readline.clear_history()
+    # Also delete the iPython history
+    rm -f ~/.ipython/profile_default/history.sqlite
 
 ## Ruby SDK = fog
 
