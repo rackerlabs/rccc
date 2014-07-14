@@ -9,4 +9,4 @@ sudo apt-get update
 sudo apt-get install -y ruby2.1 ruby2.1-dev
 
 # Install fog
-sudo gem install fog
+sudo gem install fog pry
