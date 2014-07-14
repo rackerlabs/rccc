@@ -85,14 +85,13 @@ Connect to the RCCC VM
 Start the ruby interpreter
 
     cd ruby/
-    irb
+    pry
 
 Set the username and apiKey
 
     username = "{blank}"
     api_key = "{blank}"
 
-Quit irb and clear the history at the end of a challenge
+Clear the history at the end of a challenge
 
-    exit
-    rm ~/.irb_history
+    hist --clear
