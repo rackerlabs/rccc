@@ -1,10 +1,7 @@
-<p align="center">
-  <img src="images/rackspace.png">
+<p align="center"><img src="images/rackspace.png" width="200"></p>
 
-  <h1>Rackspace Cloud Code Challenge</h1>
-  <h2>For Business Users</h2>
-  <p>How well do YOU know the OpenStack® Programs?</p>
-</p>
+<p align="center"><b>Rackspace Cloud Code Challenge</b><br/>For Business Users</p>
+<p align="center">How well do YOU know the OpenStack® Programs?</p>
 
 1. Visit mycloud.rackspace.com
 1. Log in with any one of the usernames and passwords below
