@@ -1,3 +1,5 @@
+**HINT**: You can use tab completion when typing out the code below to get done quickly.
+
 **HINT**: You can find these instructions online at rack.to/rccc-ruby
 
 Setup fog
