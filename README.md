@@ -1,5 +1,10 @@
 # Rackspace Cloud Coding Challenge
 
+## Requirements
+
+1. Vagrant
+2. Ruby 1.9+
+
 ## Get the code
 
     git clone https://github.com/rackerlabs/rccc.git
@@ -11,6 +16,7 @@
 
 ## Stop the RCCC VM before turning off the laptop
 
+    cd rccc
     vagrant halt
 
 ## The Rackspace Java SDK (jclouds)
