@@ -3,7 +3,7 @@
 <p align="center"><b>Rackspace Cloud Code Challenge</b><br/>For Business Users</p>
 <p align="center">How well do YOU know the OpenStack® Programs?</p>
 
-1. Visit mycloud.rackspace.com
+1. Visit [mycloud.rackspace.com](https://mycloud.rackspace.com/)
 1. Log in with any one of the usernames and passwords below
 1. Use one of the questions below to find the text file that contains the winning message:
   * What was the previous name of this subatomic program that was renamed in July 2013?
