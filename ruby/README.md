@@ -1,4 +1,4 @@
-# The Rackspace Ruby SDK = fog
+# The Rackspace Ruby SDK (fog)
 
 **HINT**: You can use tab completion when typing out the code below to get done quickly.
 

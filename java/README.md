@@ -1,4 +1,4 @@
-# The Rackspace Java SDK = jclouds
+# The Rackspace Java SDK (jclouds)
 
 **HINT**: You can use tab completion when typing out the code below to get done quickly.
 

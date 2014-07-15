@@ -13,7 +13,7 @@
 
     vagrant halt
 
-## Java SDK = jclouds
+## The Rackspace Java SDK (jclouds)
 
 In a new Terminal tab
 
@@ -45,7 +45,7 @@ Quit the groovy shell at the end of the day
 
     :q
 
-## Python SDK = pyrax
+## The Rackspace Python SDK (pyrax)
 
 In a new Terminal tab
 
@@ -74,7 +74,7 @@ Clear the history at the end of a challenge
     import readline
     readline.clear_history()
 
-## Ruby SDK = fog
+## The Rackspace Ruby SDK (fog)
 
 In a new Terminal tab
 
