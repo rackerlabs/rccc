@@ -35,9 +35,7 @@ Set the username and apiKey variables
     username = "{blank}"
     apiKey = "{blank}"
 
-At this point you are ready for RCCC participants
-
-    See the [Java README](java/README.md)
+At this point you are ready for RCCC participants, see the [Java README](java/README.md)
 
 Clear the history at the end of a challenge
 
@@ -69,9 +67,7 @@ Set the username and api_key variables
     username = "{blank}"
     api_key = "{blank}"
 
-At this point you are ready for RCCC participants
-
-    See the [Python README](python/README.md)
+At this point you are ready for RCCC participants, see the [Python README](python/README.md)
 
 Clear the history at the end of a challenge
 
@@ -100,9 +96,7 @@ Set the username and api_key variables
     username = "{blank}"
     api_key = "{blank}"
 
-At this point you are ready for RCCC participants
-
-    See the [Ruby README](ruby/README.md)
+At this point you are ready for RCCC participants, see the [Ruby README](ruby/README.md)
 
 Clear the history at the end of a challenge
 
