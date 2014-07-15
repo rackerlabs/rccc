@@ -3,7 +3,7 @@
 ## Requirements
 
 1. Vagrant
-2. Ruby 1.9+
+1. Ruby 1.9+
 
 ## Get the code
 
