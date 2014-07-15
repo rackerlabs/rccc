@@ -30,10 +30,14 @@ Start the groovy shell
     cd java/
     groovysh -cp "lib/*"
 
-Set the username and apiKey
+Set the username and apiKey variables
 
     username = "{blank}"
     apiKey = "{blank}"
+
+At this point you are ready for RCCC participants
+
+    See the [Java README](java/README.md)
 
 Clear the history at the end of a challenge
 
@@ -60,17 +64,19 @@ Start the iPython interpreter
     cd python/
     ipython
 
-Set the username and apiKey
+Set the username and api_key variables
 
     username = "{blank}"
     api_key = "{blank}"
+
+At this point you are ready for RCCC participants
+
+    See the [Python README](python/README.md)
 
 Clear the history at the end of a challenge
 
     import readline
     readline.clear_history()
-    # Also delete the iPython history
-    rm -f ~/.ipython/profile_default/history.sqlite
 
 ## Ruby SDK = fog
 
@@ -89,10 +95,14 @@ Start the ruby interpreter
     cd ruby/
     pry
 
-Set the username and apiKey
+Set the username and api_key variables
 
     username = "{blank}"
     api_key = "{blank}"
+
+At this point you are ready for RCCC participants
+
+    See the [Ruby README](ruby/README.md)
 
 Clear the history at the end of a challenge
 
